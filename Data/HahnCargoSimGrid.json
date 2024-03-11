@@ -1,0 +1,498 @@
+{
+  "Nodes": [
+    {
+      "Id": 0,
+      "Name": "G17V-G"
+    },
+    {
+      "Id": 1,
+      "Name": "G17V-G"
+    },
+    {
+      "Id": 2,
+      "Name": "BPS-R9"
+    },
+    {
+      "Id": 3,
+      "Name": "PKGL-T"
+    },
+    {
+      "Id": 4,
+      "Name": "9U-AN1"
+    },
+    {
+      "Id": 5,
+      "Name": "1FEN-B"
+    },
+    {
+      "Id": 6,
+      "Name": "U-IATR"
+    },
+    {
+      "Id": 7,
+      "Name": "OM-2US"
+    },
+    {
+      "Id": 8,
+      "Name": "2YVG-U"
+    },
+    {
+      "Id": 9,
+      "Name": "D-GUN8"
+    },
+    {
+      "Id": 10,
+      "Name": "DC5Q-A"
+    },
+    {
+      "Id": 11,
+      "Name": "6-LOFZ"
+    },
+    {
+      "Id": 12,
+      "Name": "O-YFH8"
+    },
+    {
+      "Id": 13,
+      "Name": "34-7J5"
+    },
+    {
+      "Id": 14,
+      "Name": "6U7-IL"
+    },
+    {
+      "Id": 15,
+      "Name": "K-LYCD"
+    },
+    {
+      "Id": 16,
+      "Name": "A8N-BT"
+    },
+    {
+      "Id": 17,
+      "Name": "JB32-V"
+    },
+    {
+      "Id": 18,
+      "Name": "F-6GJI"
+    },
+    {
+      "Id": 19,
+      "Name": "X-7OB1"
+    }
+  ],
+  "Edges": [
+    {
+      "Id": 0,
+      "Cost": 3,
+      "Time": "00:00:07"
+    },
+    {
+      "Id": 1,
+      "Cost": 3,
+      "Time": "00:00:07"
+    },
+    {
+      "Id": 2,
+      "Cost": 2,
+      "Time": "00:00:09"
+    },
+    {
+      "Id": 3,
+      "Cost": 2,
+      "Time": "00:00:02"
+    },
+    {
+      "Id": 4,
+      "Cost": 2,
+      "Time": "00:00:03"
+    },
+    {
+      "Id": 5,
+      "Cost": 5,
+      "Time": "00:00:09"
+    },
+    {
+      "Id": 6,
+      "Cost": 2,
+      "Time": "00:00:05"
+    },
+    {
+      "Id": 7,
+      "Cost": 2,
+      "Time": "00:00:05"
+    },
+    {
+      "Id": 8,
+      "Cost": 2,
+      "Time": "00:00:09"
+    },
+    {
+      "Id": 9,
+      "Cost": 2,
+      "Time": "00:00:04"
+    }
+  ],
+  "Connections": [
+    {
+      "Id": 0,
+      "EdgeId": 3,
+      "FirstNodeId": 0,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 1,
+      "EdgeId": 3,
+      "FirstNodeId": 1,
+      "SecondNodeId": 2
+    },
+    {
+      "Id": 2,
+      "EdgeId": 9,
+      "FirstNodeId": 2,
+      "SecondNodeId": 3
+    },
+    {
+      "Id": 3,
+      "EdgeId": 9,
+      "FirstNodeId": 3,
+      "SecondNodeId": 4
+    },
+    {
+      "Id": 4,
+      "EdgeId": 3,
+      "FirstNodeId": 4,
+      "SecondNodeId": 5
+    },
+    {
+      "Id": 5,
+      "EdgeId": 9,
+      "FirstNodeId": 5,
+      "SecondNodeId": 6
+    },
+    {
+      "Id": 6,
+      "EdgeId": 7,
+      "FirstNodeId": 6,
+      "SecondNodeId": 7
+    },
+    {
+      "Id": 7,
+      "EdgeId": 7,
+      "FirstNodeId": 7,
+      "SecondNodeId": 8
+    },
+    {
+      "Id": 8,
+      "EdgeId": 3,
+      "FirstNodeId": 8,
+      "SecondNodeId": 9
+    },
+    {
+      "Id": 9,
+      "EdgeId": 7,
+      "FirstNodeId": 9,
+      "SecondNodeId": 10
+    },
+    {
+      "Id": 10,
+      "EdgeId": 6,
+      "FirstNodeId": 10,
+      "SecondNodeId": 11
+    },
+    {
+      "Id": 11,
+      "EdgeId": 3,
+      "FirstNodeId": 11,
+      "SecondNodeId": 12
+    },
+    {
+      "Id": 12,
+      "EdgeId": 0,
+      "FirstNodeId": 12,
+      "SecondNodeId": 13
+    },
+    {
+      "Id": 13,
+      "EdgeId": 2,
+      "FirstNodeId": 13,
+      "SecondNodeId": 14
+    },
+    {
+      "Id": 14,
+      "EdgeId": 4,
+      "FirstNodeId": 14,
+      "SecondNodeId": 15
+    },
+    {
+      "Id": 15,
+      "EdgeId": 7,
+      "FirstNodeId": 15,
+      "SecondNodeId": 16
+    },
+    {
+      "Id": 16,
+      "EdgeId": 4,
+      "FirstNodeId": 16,
+      "SecondNodeId": 17
+    },
+    {
+      "Id": 17,
+      "EdgeId": 3,
+      "FirstNodeId": 17,
+      "SecondNodeId": 18
+    },
+    {
+      "Id": 18,
+      "EdgeId": 2,
+      "FirstNodeId": 18,
+      "SecondNodeId": 19
+    },
+    {
+      "Id": 19,
+      "EdgeId": 9,
+      "FirstNodeId": 19,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 20,
+      "EdgeId": 0,
+      "FirstNodeId": 18,
+      "SecondNodeId": 2
+    },
+    {
+      "Id": 21,
+      "EdgeId": 1,
+      "FirstNodeId": 17,
+      "SecondNodeId": 3
+    },
+    {
+      "Id": 22,
+      "EdgeId": 1,
+      "FirstNodeId": 16,
+      "SecondNodeId": 4
+    },
+    {
+      "Id": 23,
+      "EdgeId": 4,
+      "FirstNodeId": 7,
+      "SecondNodeId": 4
+    },
+    {
+      "Id": 24,
+      "EdgeId": 3,
+      "FirstNodeId": 8,
+      "SecondNodeId": 15
+    },
+    {
+      "Id": 25,
+      "EdgeId": 9,
+      "FirstNodeId": 8,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 26,
+      "EdgeId": 5,
+      "FirstNodeId": 8,
+      "SecondNodeId": 12
+    },
+    {
+      "Id": 27,
+      "EdgeId": 5,
+      "FirstNodeId": 9,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 28,
+      "EdgeId": 7,
+      "FirstNodeId": 9,
+      "SecondNodeId": 14
+    },
+    {
+      "Id": 29,
+      "EdgeId": 5,
+      "FirstNodeId": 9,
+      "SecondNodeId": 5
+    },
+    {
+      "Id": 30,
+      "EdgeId": 0,
+      "FirstNodeId": 10,
+      "SecondNodeId": 9
+    },
+    {
+      "Id": 31,
+      "EdgeId": 1,
+      "FirstNodeId": 10,
+      "SecondNodeId": 11
+    },
+    {
+      "Id": 32,
+      "EdgeId": 7,
+      "FirstNodeId": 10,
+      "SecondNodeId": 13
+    },
+    {
+      "Id": 33,
+      "EdgeId": 9,
+      "FirstNodeId": 11,
+      "SecondNodeId": 0
+    },
+    {
+      "Id": 34,
+      "EdgeId": 7,
+      "FirstNodeId": 11,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 35,
+      "EdgeId": 0,
+      "FirstNodeId": 11,
+      "SecondNodeId": 19
+    },
+    {
+      "Id": 36,
+      "EdgeId": 4,
+      "FirstNodeId": 12,
+      "SecondNodeId": 5
+    },
+    {
+      "Id": 37,
+      "EdgeId": 4,
+      "FirstNodeId": 12,
+      "SecondNodeId": 2
+    },
+    {
+      "Id": 38,
+      "EdgeId": 4,
+      "FirstNodeId": 12,
+      "SecondNodeId": 7
+    },
+    {
+      "Id": 39,
+      "EdgeId": 5,
+      "FirstNodeId": 13,
+      "SecondNodeId": 14
+    },
+    {
+      "Id": 40,
+      "EdgeId": 1,
+      "FirstNodeId": 13,
+      "SecondNodeId": 18
+    },
+    {
+      "Id": 41,
+      "EdgeId": 1,
+      "FirstNodeId": 13,
+      "SecondNodeId": 7
+    },
+    {
+      "Id": 42,
+      "EdgeId": 4,
+      "FirstNodeId": 14,
+      "SecondNodeId": 16
+    },
+    {
+      "Id": 43,
+      "EdgeId": 2,
+      "FirstNodeId": 14,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 44,
+      "EdgeId": 5,
+      "FirstNodeId": 14,
+      "SecondNodeId": 2
+    },
+    {
+      "Id": 45,
+      "EdgeId": 0,
+      "FirstNodeId": 15,
+      "SecondNodeId": 16
+    },
+    {
+      "Id": 46,
+      "EdgeId": 1,
+      "FirstNodeId": 15,
+      "SecondNodeId": 11
+    },
+    {
+      "Id": 47,
+      "EdgeId": 2,
+      "FirstNodeId": 15,
+      "SecondNodeId": 12
+    },
+    {
+      "Id": 48,
+      "EdgeId": 8,
+      "FirstNodeId": 16,
+      "SecondNodeId": 7
+    },
+    {
+      "Id": 49,
+      "EdgeId": 6,
+      "FirstNodeId": 16,
+      "SecondNodeId": 8
+    },
+    {
+      "Id": 50,
+      "EdgeId": 0,
+      "FirstNodeId": 16,
+      "SecondNodeId": 2
+    },
+    {
+      "Id": 51,
+      "EdgeId": 8,
+      "FirstNodeId": 17,
+      "SecondNodeId": 1
+    },
+    {
+      "Id": 52,
+      "EdgeId": 5,
+      "FirstNodeId": 17,
+      "SecondNodeId": 4
+    },
+    {
+      "Id": 53,
+      "EdgeId": 1,
+      "FirstNodeId": 17,
+      "SecondNodeId": 11
+    },
+    {
+      "Id": 54,
+      "EdgeId": 0,
+      "FirstNodeId": 18,
+      "SecondNodeId": 7
+    },
+    {
+      "Id": 55,
+      "EdgeId": 8,
+      "FirstNodeId": 18,
+      "SecondNodeId": 19
+    },
+    {
+      "Id": 56,
+      "EdgeId": 0,
+      "FirstNodeId": 18,
+      "SecondNodeId": 6
+    },
+    {
+      "Id": 57,
+      "EdgeId": 1,
+      "FirstNodeId": 19,
+      "SecondNodeId": 12
+    },
+    {
+      "Id": 58,
+      "EdgeId": 1,
+      "FirstNodeId": 19,
+      "SecondNodeId": 5
+    },
+    {
+      "Id": 59,
+      "EdgeId": 1,
+      "FirstNodeId": 19,
+      "SecondNodeId": 1
+    }
+  ]
+}

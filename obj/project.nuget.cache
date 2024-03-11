@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "xVDzQSjLjk2oTWJ4hLZFW6l1bs6uKtfjQ//Ar1GpK0wB8ILTeL0pLh9gf5SwA2Y4RKOkGoDkkZPZ0w4Mn9j1LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\legion\\Desktop\\HahnCargoSim-master\\HahnCargoSim\\HahnCargoSim.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.4\\microsoft.aspnetcore.authentication.jwtbearer.6.0.4.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.5\\microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.30.1\\microsoft.identitymodel.abstractions.6.30.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.30.1\\microsoft.identitymodel.jsonwebtokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.logging\\6.30.1\\microsoft.identitymodel.logging.6.30.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.30.1\\microsoft.identitymodel.tokens.6.30.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.30.1\\system.identitymodel.tokens.jwt.6.30.1.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\legion\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

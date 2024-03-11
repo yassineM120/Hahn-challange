@@ -1,0 +1,281 @@
+[
+  {
+    "ContainingType": "HahnCargoSim.Controllers.CargoTransporterController",
+    "Method": "Buy",
+    "RelativePath": "CargoTransporter/Buy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "positionNodeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.CargoTransporterController",
+    "Method": "Get",
+    "RelativePath": "CargoTransporter/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transporterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HahnCargoSim.Model.DTO.CargoTransporterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.CargoTransporterController",
+    "Method": "Move",
+    "RelativePath": "CargoTransporter/Move",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transporterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "targetNodeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.GridController",
+    "Method": "GenerateFile",
+    "RelativePath": "Grid/GenerateFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numberOfNodes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numberOfEdges",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numberOfConnectionsPerNode",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.GridController",
+    "Method": "Get",
+    "RelativePath": "Grid/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.OrderController",
+    "Method": "Accept",
+    "RelativePath": "Order/Accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.OrderController",
+    "Method": "Create",
+    "RelativePath": "Order/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.OrderController",
+    "Method": "GenerateFile",
+    "RelativePath": "Order/GenerateFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maxTicks",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.OrderController",
+    "Method": "GetAllAccepted",
+    "RelativePath": "Order/GetAllAccepted",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HahnCargoSim.Model.DTO.OrderDto, HahnCargoSim, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.OrderController",
+    "Method": "GetAllAvailable",
+    "RelativePath": "Order/GetAllAvailable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HahnCargoSim.Model.DTO.OrderDto, HahnCargoSim, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.SimController",
+    "Method": "Start",
+    "RelativePath": "Sim/Start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.SimController",
+    "Method": "Stop",
+    "RelativePath": "Sim/Stop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.UserController",
+    "Method": "CoinAmount",
+    "RelativePath": "User/CoinAmount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HahnCargoSim.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HahnCargoSim.Model.DTO.UserAuthenticateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
