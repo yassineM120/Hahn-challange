@@ -1,0 +1,31 @@
+
+<div class="container-fluid d-flex flex-wrap justify-content-end gap-3">
+    <div class="card">
+      <div class="card-content p-0 flex">
+        <div class="flex items-center">
+          <img class="cargo-image mr-2" src="assets/cargo.jpg" alt="Gold Coin">
+          <span class="px-2 text-nowrap text-white">{{ cargoes.length }}</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-content p-0 flex">
+        <div class="flex items-center">
+          <img class="coin-image mr-2" src="assets/coin.jpg" alt="Gold Coin">
+          <span class="text-nowrap text-white">Coins {{ coins }}</span>
+        </div>
+      </div>
+    </div>
+    <button type="button" (click)="startSim()" class="btn btn-success d-flex align-items-center">
+      <mat-icon>play_arrow</mat-icon>
+      <span>Start auto Simulation</span>
+    </button>
+    <button type="button" (click)="stopSim()" class="btn btn-danger d-flex align-items-center">
+      <mat-icon>stop</mat-icon>
+      <span>Stop Simulation</span>
+    </button>  
+  </div>
+  
+  <app-orders></app-orders>
+  <app-accepted-orders></app-accepted-orders>
